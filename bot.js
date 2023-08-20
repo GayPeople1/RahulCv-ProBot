@@ -1,23 +1,21 @@
-/* Weem nya um ;v
+/* The weem is um ;v
 Script By RahulCvModz
 
-kalau makai makai aja ngak usah nanyak apa itu apikey, apa itu rest api, apa itu api, kenapa ini nyenyenyenye 
-dah lah
+if you just use it, don't ask what is apikey, what is rest api, what is fire, why is this funny
+already
 
-oh ya jangan lupa apikey iteach diganti sama apikey kalian 
-caranya kalian tinggal buat akun atau login ke:
-1655786295:AAEB1acJaFsStKY6iIfTa5f0z3LEn_CLaqYhttps://api.i-tech.id
-- lalu kalian buka informasi profile 
-- nah disitu kan ada apikey kalian kalian ganti pakai apikey kalian
+oh yeah, don't forget to replace apikey iteach with your apikey
+all you have to do is create an account or log in to: https://api.i-tech.id
+- then you open the profile information
+- now there is your apikey, you can change it to your apikey
 
-hayoo mau ngapain
-mau ngambil kode yah ? izin dulu sama creator
+what are you doing?
+do you want to get the code? first permission from the creator
 
-semua yang ada di sini bersifat gratis jadi kamlian tidak perlu repot repot beli ampikey
+everything here is free, so you don't have to bother buying ampikey
 
-dilarang keras untuk menjual belikan script ini
-facebook : facebook.com/adimas.shadoet123
-instagram : adimas_shadoet
+it is strictly forbidden to sell and sell this script
+Telegram: https://t.me/RahulCvModz
 */
 const Telegraf = require('telegraf')
 
@@ -26,7 +24,7 @@ const axios = require('axios')
 
 /*********[ Apikey ]*********/
 let lolhuman = '99ecdb09b1053d90fbc15d56'
-let iteach = 'Ganti pakai apikey kalian' //silahkan login/register di https://api.i-tech.id untuk mendapatkan apikey
+let iteach = 'Replace with your apikey' //Please login/register in https://api.i-tech.id to get apikey
 /***************************/
 
 const helpMessage = `Katakan sesuatu kepada saya\n/start - untuk memulai bot\n/menu - untuk menampilkan list menu`;
@@ -58,7 +56,7 @@ bot.hears('/', (ctx) => {
 })
 
 bot.hears('Kembali Ke Menu Utama', (ctx) => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : RahulCvModz\n┣⊱ Telegram : @AllHacksAvaliable\n┣⊱ Owner : RahulCvModz\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : RahulCvModz\n┣⊱ Telegram : @AllHacksAvaliable\n┣⊱ Owner : RahulCvModz\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Rahul's spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {
@@ -88,7 +86,7 @@ bot.hears('Kembali Ke Menu Utama', (ctx) => {
 })
 
 bot.action('menu', ctx => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : RahulCvModz\n┣⊱ Telegram : @AllHacksAvaliable\n┣⊱ Owner : RahulCvModz\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : RahulCvModz\n┣⊱ Telegram : @AllHacksAvaliable\n┣⊱ Owner : RahulCvModz\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Rahul's spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {

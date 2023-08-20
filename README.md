@@ -28,7 +28,7 @@ run the telegram bot
 ```
 
 ### Install (windows)
-install nodejs in [here](nodejs.org/)
+install nodejs first
 
 ```bash
 > npm install

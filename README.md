@@ -1,8 +1,6 @@
 # RahulCv-ProBot
-Copy the token
+Copy the token from @BotFather and Replace in Line 24 Of bot.py
 And replace in here : 
-</p>
-(https://github.com/GayPeople1/RahulCv-ProBot/blob/428cdebb22cf0912cb32997ecd4d0e87401c77b2/bot.js#L24)
 
 ### Install (termux)
 Clone this project
